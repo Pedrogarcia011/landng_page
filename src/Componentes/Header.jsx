@@ -3,13 +3,11 @@ import React from 'react'
 export default function Header() {
     return (
         <div className='header'>
-            <span className='header-title'>
-                Company
+            <div className='header-text'>
+            <span className="text">
+            Exclusivo para Especialistas, Mentoras e Empresárias Digitais com Mais de R$ 150 mil em Vendas de Infoprodutos nos últimos 12 meses
           </span>
-            <br />
-            <span className="header-text">
-                We specialise in something ...
-          </span>
+          </div>
         </div>
     );
 }

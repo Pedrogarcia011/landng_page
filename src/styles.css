@@ -7,6 +7,7 @@
 #body{
   min-height: 30vh;
   min-width: 100%;
+  background-color: rgb(27, 26, 26);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -17,42 +18,76 @@
 }
 
 .header{
-  background-color: #ee430fea;
+  background-color: #d49b46;
   color: white;
   width: 100%;
   text-align: center;
-  height: 170px;
-  padding: 30px ;
+  height: 90px;
+  padding: 30px;
+  display: flex; /* Adicionado */
+  align-items: center; /* Adicionado */
+  justify-content: center;
 }
 
-.header-title{
-  font-size: 50px;
+.header-text {
+  width: 60%;
+  /* Remova a propriedade flex-direction e justify-content */
+}
+.text {
+  font-size: 16px;
+  color: black;
+  /* Remova a propriedade flex-direction e justify-content */
 }
 
 .header-text{
   font-size: 20px;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .section{
   flex-flow: row wrap;
   width: 90%;
+  height: 900px;
   display: flex;
   flex-direction: row wrap;
   align-items: center;
   justify-content: center;
+  background-color: green;
   
 }
 
 .section > div {
   padding: 30px;
+  background-color: red;
+  height: 40%;
+  width: 40%;
+  margin-top: -39%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
-.small-div {
-  width: 20%;
+.buttonCard {
+  background-color: #4b457e;
+  color: white;
+  border: 0;
+  height: 40px;
+  width: 100px;
+  
+}
+
+.image-home {
+  width: 100%;
+  background-color: blue;
 }
 
 .big-div {
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .bg-grey{
